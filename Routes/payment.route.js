@@ -35,7 +35,7 @@ const order = await OrderModel.findOne({user,"orderStatus":"orderCreating"})
         send_sms: false,
         allow_repeated_payments: false,
         webhook: null,
-        redirect_url: `http://localhost:3000/afterpayment`
+        redirect_url: `https://profound-pasca-216246.netlify.app/afterpayment`
 
         // redirect_url: `http://localhost:8080/pay/callback?user_id=${req.body.userId}`
       };
